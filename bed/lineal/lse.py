@@ -137,7 +137,7 @@ class lista_SE:
         """
         actual=self.__cab #ubicamos la cabecera
         anterior=None #inicializamos el valor del nodo anterior
-        removido=True
+        removido=False
         while actual:  #while actual is not none 
             if actual.dato==dato_elm: #si el dato actual es igual al dato a remover
                 if anterior: #if anterior is not none
