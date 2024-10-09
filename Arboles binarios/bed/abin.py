@@ -46,4 +46,18 @@ class ArbolBin:
                    self.__cantidad_nodos(sub_arbol.der))
         return 0
 
+    def hojas(self):
+        """Retorna la cantidad de hojas que tiene el arbol
+        """
+        pass
+    
+    def internos(self):
+        """Retorna la cantidad de nodos internos que tiene el arbol"""
+        pass
+    
+    def altura(self):
+        """Altura de un arbol
+        """
+        pass
+
 
