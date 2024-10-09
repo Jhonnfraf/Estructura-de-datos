@@ -37,4 +37,13 @@ class ArbolBin:
                     return clave_der
         return None
     
+    def __len__(self):
+        return self.__cantidad_nodos(self.raiz)
+    
+    def  __cantidad_nodos(self,sub_arbol):
+        if  sub_arbol:
+            return(1+self.__cantidad_nodos(sub_arbol.izq)+
+                   self.__cantidad_nodos(sub_arbol.der))
+        return 0
+
 
